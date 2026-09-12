@@ -1,0 +1,20 @@
+{
+  "name": "noticias-iglesia-sevilla",
+  "version": "1.0.0",
+  "description": "Tablón de titulares de noticias de la Iglesia en Sevilla, ordenado cronológicamente, con enlace a la fuente original.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node src/build.js",
+    "demo": "node scripts/generar-demo.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

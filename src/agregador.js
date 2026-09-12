@@ -1,0 +1,93 @@
+// Combina titulares de todas las fuentes, quita duplicados exactos por URL
+// y ordena cronológicamente (más recientes primero).
+//
+// Dedupe solo por URL exacta en v1: si odisur.es y archisevilla.org
+// reenlazan el mismo suceso bajo URLs distintas, aparecerán como dos
+// entradas. Es una limitación conocida y aceptada (ver README). Fusionar
+// duplicados "del mismo suceso" queda para fase 2.
+
+import * as archisevilla from "./fuentes/archisevilla.js";
+import * as odisur from "./fuentes/odisur.js";
+import * as catedral from "./fuentes/catedral.js";
+import * as agenda from "./fuentes/agenda.js";
+
+const FUENTES_NOTICIAS = [archisevilla, odisur, catedral];
+
+function normalizarFecha(fecha) {
+  if (!fecha) return null;
+  const d = new Date(fecha);
+  return Number.isNaN(d.getTime()) ? null : d.toISOString();
+}
+
+function quitarDuplicadosPorUrl(titulares) {
+  const vistos = new Set();
+  const resultado = [];
+  for (const t of titulares) {
+    const clave = (t.url || "").trim();
+    if (!clave || vistos.has(clave)) continue;
+    vistos.add(clave);
+    resultado.push(t);
+  }
+  return resultado;
+}
+
+function ordenarPorFechaDesc(titulares) {
+  return [...titulares].sort((a, b) => {
+    // Sin fecha reconocible: al final.
+    if (!a.fecha && !b.fecha) return 0;
+    if (!a.fecha) return 1;
+    if (!b.fecha) return -1;
+    return new Date(b.fecha) - new Date(a.fecha);
+  });
+}
+
+// obtenerFuentes permite inyectar módulos de fuentes falsos en los tests,
+// para poder ejecutar `npm test` con datos de muestra sin salir a internet.
+export async function agregarTitulares({
+  fuentesNoticias = FUENTES_NOTICIAS,
+  fuenteAgenda = agenda,
+  incluirAgenda = true,
+} = {}) {
+  const resultadosNoticias = await Promise.allSettled(
+    fuentesNoticias.map((f) => f.obtenerTitulares())
+  );
+
+  const errores = [];
+  let titulares = [];
+
+  resultadosNoticias.forEach((resultado, i) => {
+    if (resultado.status === "fulfilled") {
+      titulares.push(...resultado.value);
+    } else {
+      errores.push({
+        fuente: fuentesNoticias[i].name || `fuente_${i}`,
+        error: resultado.reason?.message || String(resultado.reason),
+      });
+    }
+  });
+
+  let proximosActos = [];
+  if (incluirAgenda) {
+    try {
+      proximosActos = await fuenteAgenda.obtenerProximosActos();
+    } catch (error) {
+      errores.push({ fuente: "agenda", error: error.message || String(error) });
+    }
+  }
+
+  titulares = titulares.map((t) => ({ ...t, fecha: normalizarFecha(t.fecha) }));
+  proximosActos = proximosActos.map((t) => ({
+    ...t,
+    fecha: normalizarFecha(t.fecha),
+  }));
+
+  titulares = ordenarPorFechaDesc(quitarDuplicadosPorUrl(titulares));
+  proximosActos = ordenarPorFechaDesc(quitarDuplicadosPorUrl(proximosActos));
+
+  return {
+    generadoEn: new Date().toISOString(),
+    titulares,
+    proximosActos,
+    errores,
+  };
+}
