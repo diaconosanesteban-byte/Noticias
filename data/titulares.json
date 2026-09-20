@@ -1,36 +1,167 @@
 {
-  "generadoEn": "2026-09-12T17:40:23.000Z",
+  "generadoEn": "2026-09-20T18:20:51.434Z",
   "titulares": [
     {
-      "titulo": "El Arzobispo preside la apertura del curso pastoral en la Catedral",
-      "url": "https://www.archisevilla.org/apertura-curso-pastoral-2026/",
-      "fecha": "2026-09-08T09:00:00.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "La provincia eclesiástica de Sevilla se prepara para el nuevo curso",
-      "url": "https://www.odisur.es/provincia-nuevo-curso-2026/",
-      "fecha": "2026-09-07T10:00:00.000Z",
+      "titulo": "El Obispo acompaña, en Melilla, el inicio del servicio pastoral del nuevo vicario y los nuevos párrocos",
+      "url": "https://odisur.es/malaga/el-obispo-acompana-en-melilla-el-inicio-del-servicio-pastoral-del-nuevo-vicario-y-los-nuevos-parrocos/",
+      "fecha": "2026-09-20T12:40:00.000Z",
       "fuente": "ODISUR"
     },
     {
-      "titulo": "La Catedral acoge un concierto de música sacra este sábado",
-      "url": "https://www.catedraldesevilla.es/concierto-musica-sacra-septiembre/",
-      "fecha": "2026-09-05T18:00:00.000Z",
-      "fuente": "Catedral de Sevilla"
+      "titulo": "Montellano celebra 300 años de devoción a la Virgen de los Dolores con una Función Solemne presidida por monseñor Saiz",
+      "url": "https://www.archisevilla.org/montellano-celebra-300-anos-de-devocion-a-la-virgen-de-los-dolores-con-una-funcion-solemne-presidida-por-monsenor-saiz/",
+      "fecha": "2026-09-20T10:30:51.000Z",
+      "fuente": "Archidiócesis de Sevilla"
     },
     {
-      "titulo": "Convocada la Jornada Mundial de Oración por la Conservación de la Creación",
-      "url": "https://www.archisevilla.org/jornada-oracion-creacion-2026/",
-      "fecha": "2026-09-01T08:30:00.000Z",
+      "titulo": "DIEZ COSAS QUE DEBES SABER DEL NUEVO PLAN PASTORAL DE LA DIÓCESIS DE ALMERÍA",
+      "url": "https://odisur.es/almeria/diez-cosas-que-debes-saber-del-nuevo-plan-pastoral-de-la-diocesis-de-almeria/",
+      "fecha": "2026-09-20T06:52:55.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "La Asamblea Sinodal Diocesana recogida en “Iglesia en Córdoba”",
+      "url": "https://odisur.es/cordoba/la-asamblea-sinodal-diocesana-recogida-en-iglesia-en-cordoba/",
+      "fecha": "2026-09-19T16:30:44.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Nuestro arzobispo reitera su cercanía con las personas afectadas por los terremotos",
+      "url": "https://odisur.es/granada/nuestro-arzobispo-reitera-su-cercania-con-las-personas-afectadas-por-los-terremotos/",
+      "fecha": "2026-09-19T15:51:09.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Un nuevo camino de comunión y misión para la Iglesia de Córdoba",
+      "url": "https://odisur.es/cordoba/un-nuevo-camino-de-comunion-y-mision-para-la-iglesia-de-cordoba/",
+      "fecha": "2026-09-19T15:20:21.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Monseñor Saiz Meneses anima a los responsables de Life Teen España a «seguir sembrando» el Evangelio entre los adolescentes",
+      "url": "https://www.archisevilla.org/monsenor-saiz-meneses-anima-a-los-responsables-de-life-teen-espana-a-seguir-sembrando-el-evangelio-entre-los-adolescentes/",
+      "fecha": "2026-09-19T15:00:13.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "“He presenciado historias hermosas de encuentros con el Señor en ambientes de vida muy distintos”",
+      "url": "https://odisur.es/cordoba/he-presenciado-historias-hermosas-de-encuentros-con-el-senor-en-ambientes-de-vida-muy-distintos/",
+      "fecha": "2026-09-19T10:00:33.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "ANIDI celebra en Dos Hermanas su 50 aniversario con una Eucaristía presidida por el arzobispo de Sevilla",
+      "url": "https://www.archisevilla.org/anidi-celebra-en-dos-hermanas-su-50-aniversario-con-una-eucaristia-presidida-por-el-arzobispo-de-sevilla/",
+      "fecha": "2026-09-19T09:40:14.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "“Primer anuncio en la vida cotidiana” en la Asamblea Diocesana",
+      "url": "https://odisur.es/cordoba/primer-anuncio-en-la-vida-cotidiana-en-la-asamblea-diocesana/",
+      "fecha": "2026-09-19T09:26:50.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "“El Plan Pastoral es referencia para el programa anual propio”",
+      "url": "https://odisur.es/cordoba/el-plan-pastoral-es-referencia-para-el-programa-anual-propio/",
+      "fecha": "2026-09-19T09:03:05.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Más de 600 personas se reúnen en el Colegio Trinidad para impulsar el nuevo camino pastoral de la diócesis de Córdoba",
+      "url": "https://odisur.es/cordoba/mas-de-600-personas-se-reunen-en-el-colegio-trinidad-para-impulsar-el-nuevo-camino-pastoral-de-la-diocesis-de-cordoba/",
+      "fecha": "2026-09-19T08:45:37.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "‘Aquí estoy, envíame’, carta dominical del arzobispo de Sevilla (20-09-2026)",
+      "url": "https://www.archisevilla.org/aqui-estoy-enviame-carta-dominical-del-arzobispo-de-sevilla-20-09-2026/",
+      "fecha": "2026-09-19T08:00:11.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "COPE ESPEJO ALMERIA: Este fin de semana la Diócesis mira a Dalías para encontrarse con el Cristo de la Luz",
+      "url": "https://odisur.es/almeria/cope-espejo-almeria-este-fin-de-semana-la-diocesis-mira-a-dalias-para-encontrarse-con-el-cristo-de-la-luz/",
+      "fecha": "2026-09-19T07:08:29.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Lecturas del XXIV Domingo del Tiempo Ordinario (ciclo A)",
+      "url": "https://www.archisevilla.org/lecturas-del-xxiv-domingo-del-tiempo-ordinario-ciclo-a-2/",
+      "fecha": "2026-09-18T15:00:13.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Lecturas del Domingo XXV del Tiempo Ordinario (ciclo A)",
+      "url": "https://www.archisevilla.org/lecturas-del-domingo-xxv-del-tiempo-ordinario-ciclo-a/",
+      "fecha": "2026-09-18T15:00:01.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "ARCHISEVILLA 7 días. Edición del 18-09-2026",
+      "url": "https://www.archisevilla.org/archisevilla-7-dias-edicion-del-18-09-2026/",
+      "fecha": "2026-09-18T12:30:04.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Citas vocacionales para septiembre",
+      "url": "https://www.archisevilla.org/citas-vocacionales-para-septiembre/",
+      "fecha": "2026-09-18T12:00:39.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Monseñor Piero Coda participa hoy en Sevilla en la presentación del segundo volumen del «Diccionario Dinámico de Ontología Trinitaria»",
+      "url": "https://www.archisevilla.org/monsenor-piero-coda-participa-hoy-en-sevilla-en-la-presentacion-del-segundo-volumen-del-diccionario-dinamico-de-ontologia-trinitaria/",
+      "fecha": "2026-09-18T11:00:26.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "La JMJ de Seúl protagoniza la programación diocesana en COPE Sevilla",
+      "url": "https://www.archisevilla.org/la-jmj-de-seul-protagoniza-la-programacion-diocesana-en-cope-sevilla/",
+      "fecha": "2026-09-18T10:00:22.000Z",
       "fuente": "Archidiócesis de Sevilla"
     }
   ],
   "proximosActos": [
     {
-      "titulo": "Vigilia diocesana de oración por las vocaciones",
-      "url": "https://www.archisevilla.org/eventos/vigilia-vocaciones-2026/",
-      "fecha": "2026-09-20T19:00:00.000Z",
+      "titulo": "Coronación de la Virgen de los Dolores de Guillena",
+      "url": "https://www.archisevilla.org/evento/coronacion-de-la-virgen-de-los-dolores-de-guillena/",
+      "fecha": "2028-06-24T20:30:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación canónica de la Virgen de las Nieves de Olivares",
+      "url": "https://www.archisevilla.org/evento/coronacion-canonica-de-la-virgen-de-las-nieves-de-olivares/",
+      "fecha": "2028-04-29T00:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación de la Virgen de Los Remedios, de Los Palacios",
+      "url": "https://www.archisevilla.org/evento/coronacion-de-la-virgen-de-los-remedios-de-los-palacios/",
+      "fecha": "2027-10-23T00:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación canónica de la Virgen de Guaditoca",
+      "url": "https://www.archisevilla.org/evento/coronacion-canonica-de-la-virgen-de-guaditoca/",
+      "fecha": "2027-07-03T00:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación canónica de Ntra. Sra. del Amparo",
+      "url": "https://www.archisevilla.org/evento/coronacion-canonica-de-ntra-sra-del-amparo/",
+      "fecha": "2026-11-08T00:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Eucaristía Jornada Mundial del Migrante y refugiado",
+      "url": "https://www.archisevilla.org/evento/eucaristia-jornada-mundial-del-migrante-y-refugiado/",
+      "fecha": "2026-09-27T12:00:00.000Z",
       "fuente": "Agenda — Archidiócesis de Sevilla",
       "esAgenda": true
     }
