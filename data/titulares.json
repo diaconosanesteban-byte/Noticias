@@ -1,6 +1,12 @@
 {
-  "generadoEn": "2026-09-21T20:19:43.154Z",
+  "generadoEn": "2026-09-21T21:19:03.372Z",
   "titulares": [
+    {
+      "titulo": "El sacerdote Nelson Borges tomó posesión como nuevo párroco de San Pedro de Carmona",
+      "url": "https://www.archisevilla.org/el-sacerdote-nelson-borges-tomo-posesion-como-nuevo-parroco-de-san-pedro-de-carmona/",
+      "fecha": "2026-09-21T21:00:57.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
     {
       "titulo": "Cáritas Diocesana y la Delegación de Infancia y Juventud convocan una nueva reunión informativa del programa Voluntariado Joven",
       "url": "https://odisur.es/malaga/caritas-diocesana-y-la-delegacion-de-infancia-y-juventud-convocan-una-nueva-reunion-informativa-del-programa-voluntariado-joven/",
@@ -113,12 +119,6 @@
       "titulo": "Lecturas del XXIV Domingo del Tiempo Ordinario (ciclo A)",
       "url": "https://www.archisevilla.org/lecturas-del-xxiv-domingo-del-tiempo-ordinario-ciclo-a-2/",
       "fecha": "2026-09-18T15:00:13.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "Lecturas del Domingo XXV del Tiempo Ordinario (ciclo A)",
-      "url": "https://www.archisevilla.org/lecturas-del-domingo-xxv-del-tiempo-ordinario-ciclo-a/",
-      "fecha": "2026-09-18T15:00:01.000Z",
       "fuente": "Archidiócesis de Sevilla"
     }
   ],
