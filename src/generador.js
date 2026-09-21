@@ -170,5 +170,3 @@ export function generarPaginaHtml({ generadoEn, titulares, proximosActos }) {
 </html>
 `;
 }
-Generador
-JS 
