@@ -88,15 +88,23 @@ export function generarPaginaHtml({ generadoEn, titulares, proximosActos }) {
     line-height: 1.5;
   }
   main { max-width: 720px; margin: 0 auto; }
-  header { margin-bottom: 32px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  header { margin-bottom: 32px; text-align: center; }
+  h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 0 2px;
+    line-height: 1.25;
+  }
   .h1-desde {
     display: block;
-    font-size: 1rem;
-    font-weight: normal;
-    color: var(--texto-tenue);
+    font-size: 1.7rem;
+    font-weight: bold;
   }
-  .subtitulo { color: var(--texto-tenue); font-size: 0.95rem; margin: 0; }
+  .subtitulo {
+    color: var(--texto-tenue);
+    font-size: 0.95rem;
+    margin: 10px 0 0;
+  }
   h2 {
     font-size: 1.05rem;
     text-transform: uppercase;
@@ -162,3 +170,5 @@ export function generarPaginaHtml({ generadoEn, titulares, proximosActos }) {
 </html>
 `;
 }
+Generador
+JS 
