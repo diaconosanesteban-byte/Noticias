@@ -155,7 +155,7 @@ export function generarPaginaHtml({ generadoEn, titulares, proximosActos }) {
 <main>
   <header>
     <h1>Noticias de la Iglesia<span class="h1-desde">desde Sevilla</span></h1>
-    <p class="subtitulo">Titulares ordenados cronológicamente, con enlace a la fuente original. No se reproduce el contenido de las noticias.</p>
+    <p class="subtitulo">Titulares ordenados cronológicamente, con enlace a la fuente original.<br>No se reproduce el contenido de las noticias.</p>
   </header>
 
   ${renderizarSeccion("Próximos actos", proximosActos, "No hay actos próximos publicados por ahora.")}
