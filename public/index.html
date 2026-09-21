@@ -33,9 +33,23 @@
     line-height: 1.5;
   }
   main { max-width: 720px; margin: 0 auto; }
-  header { margin-bottom: 32px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
-  .subtitulo { color: var(--texto-tenue); font-size: 0.95rem; margin: 0; }
+  header { margin-bottom: 32px; text-align: center; }
+  h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 0 2px;
+    line-height: 1.25;
+  }
+  .h1-desde {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .subtitulo {
+    color: var(--texto-tenue);
+    font-size: 0.95rem;
+    margin: 10px 0 0;
+  }
   h2 {
     font-size: 1.05rem;
     text-transform: uppercase;
@@ -85,8 +99,8 @@
 <body>
 <main>
   <header>
-    <h1>Noticias de la Iglesia en Sevilla</h1>
-    <p class="subtitulo">Titulares ordenados cronológicamente, con enlace a la fuente original. No se reproduce el contenido de las noticias.</p>
+    <h1>Noticias de la Iglesia<span class="h1-desde">desde Sevilla</span></h1>
+    <p class="subtitulo">Titulares ordenados cronológicamente, con enlace a la fuente original.<br>No se reproduce el contenido de las noticias.</p>
   </header>
 
   <section>
@@ -128,9 +142,58 @@
         <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
       </li>
       <li class="titular">
+        <span class="titular__fecha">03 de octubre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/coronacion-de-la-virgen-de-las-angustias-en-utrera/" target="_blank" rel="noopener noreferrer">
+          Coronación de la Virgen de las Angustias, en Utrera
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">01 de octubre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/apertura-de-curso-cofrade-en-sevilla/" target="_blank" rel="noopener noreferrer">
+          Apertura de curso cofrade en Sevilla
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">01 de octubre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/apertura-del-curso-academico-en-la-facultad-de-teologia-2/" target="_blank" rel="noopener noreferrer">
+          Apertura del curso académico en la Facultad de Teología
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">27 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/toma-de-cruces-de-los-seminaristas-2/" target="_blank" rel="noopener noreferrer">
+          Toma de Cruces de los seminaristas
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
         <span class="titular__fecha">27 de septiembre de 2026</span>
         <a class="titular__enlace" href="https://www.archisevilla.org/evento/eucaristia-jornada-mundial-del-migrante-y-refugiado/" target="_blank" rel="noopener noreferrer">
           Eucaristía Jornada Mundial del Migrante y refugiado
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">26 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/ordenaciones-en-la-catedral-2/" target="_blank" rel="noopener noreferrer">
+          Ordenaciones en la Catedral
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">25 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/celebracion-de-la-patrona-de-instituciones-penitenciarias/" target="_blank" rel="noopener noreferrer">
+          Celebración de la patrona de Instituciones Penitenciarias
+        </a>
+        <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">24 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/evento/conferencia-del-arzobispo-en-el-colegio-de-medicos/" target="_blank" rel="noopener noreferrer">
+          Conferencia del arzobispo en el Colegio de Médicos
         </a>
         <span class="titular__fuente">Agenda — Archidiócesis de Sevilla</span>
       </li>
@@ -140,6 +203,76 @@
   <section>
       <h2>Últimas noticias</h2>
       <ul class="lista-titulares">
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/granada/ktnovios-la-propuesta-para-parejas-de-preparacion-al-matrimonio-comienza-este-nuevo-curso/" target="_blank" rel="noopener noreferrer">
+          “KTNovios”, la propuesta para parejas de preparación al matrimonio comienza este nuevo curso
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/cordoba/las-delegaciones-de-ensenanza-y-catequesis-ponen-en-marcha-un-nuevo-reading-course/" target="_blank" rel="noopener noreferrer">
+          Las Delegaciones de Enseñanza y Catequesis ponen en marcha un nuevo Reading Course
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/cordoba/las-delegaciones-de-ensenanza-y-catequesis-ponen-en-marcha-un-nuevo-reading-course-2/" target="_blank" rel="noopener noreferrer">
+          Las Delegaciones de Enseñanza y Catequesis ponen en marcha un nuevo Reading Course
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/granada/veneracion-de-los-fieles-a-la-virgen-de-las-angustias-en-la-catedral/" target="_blank" rel="noopener noreferrer">
+          Veneración de los fieles a la Virgen de las Angustias, en la Catedral
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/malaga/los-catequistas-enviados-a-ser-testigos-discipulos-y-acompanantes/" target="_blank" rel="noopener noreferrer">
+          Los catequistas, enviados a ser testigos, discípulos y acompañantes
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/granada/celebrados-los-ejercicios-espirituales-de-sacerdotes-en-el-hotel-del-duque/" target="_blank" rel="noopener noreferrer">
+          Celebrados los ejercicios espirituales de sacerdotes, en el Hotel del Duque
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/granada/el-senor-viene-a-buscar-fruto-en-nosotros-como-viene-a-buscar-a-su-vina/" target="_blank" rel="noopener noreferrer">
+          “El Señor viene a buscar fruto en nosotros, como viene a buscar a su viña”
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/malaga/imagen-ofrenda-floral-de-los-ens-a-la-patrona/" target="_blank" rel="noopener noreferrer">
+          IMAGEN. Ofrenda floral de los ENS a la Patrona
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://www.archisevilla.org/la-renovacion-carismatica-catolica-de-sevilla-propone-cuatro-seminarios-de-vida-en-el-espiritu-para-el-proximo-curso/" target="_blank" rel="noopener noreferrer">
+          La Renovación Carismática Católica de Sevilla propone cuatro Seminarios de Vida en el Espíritu para el próximo curso
+        </a>
+        <span class="titular__fuente">Archidiócesis de Sevilla</span>
+      </li>
+      <li class="titular">
+        <span class="titular__fecha">21 de septiembre de 2026</span>
+        <a class="titular__enlace" href="https://odisur.es/granada/benefactores-de-la-restauracion-del-triptico-descendimiento-de-la-cruz-visitan-la-capilla-real/" target="_blank" rel="noopener noreferrer">
+          Benefactores de la restauración del Tríptico “Descendimiento de la Cruz” visitan la Capilla Real
+        </a>
+        <span class="titular__fuente">ODISUR</span>
+      </li>
       <li class="titular">
         <span class="titular__fecha">21 de septiembre de 2026</span>
         <a class="titular__enlace" href="https://www.archisevilla.org/la-archidiocesis-prepara-ya-la-participacion-de-los-jovenes-sevillanos-en-la-jmj-de-seul/" target="_blank" rel="noopener noreferrer">
@@ -156,8 +289,8 @@
       </li>
       <li class="titular">
         <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/granada/eucaristia-en-la-catedral-y-procesion-con-la-virgen-de-las-angustias/" target="_blank" rel="noopener noreferrer">
-          Eucaristía en la Catedral y procesión con la Virgen de las Angustias
+        <a class="titular__enlace" href="https://odisur.es/cordoba/belalcazar-rinde-culto-con-un-triduo-a-la-virgen-de-guadalupe/" target="_blank" rel="noopener noreferrer">
+          Belalcázar rinde culto con un triduo a la Virgen de Guadalupe
         </a>
         <span class="titular__fuente">ODISUR</span>
       </li>
@@ -169,74 +302,11 @@
         <span class="titular__fuente">Archidiócesis de Sevilla</span>
       </li>
       <li class="titular">
-        <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/cartagena/fallece-el-sacerdote-diocesano-isidro-molino-nunez/" target="_blank" rel="noopener noreferrer">
-          Fallece el sacerdote diocesano Isidro Molino Núñez
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/almeria/dos-nuevos-seminaristas-se-incorporan-al-curso-propedeutico/" target="_blank" rel="noopener noreferrer">
-          Dos nuevos seminaristas se incorporan al curso propedéutico
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/granada/la-actualidad-de-la-iglesia-diocesana-en-cope-granada-el-20-de-septiembre/" target="_blank" rel="noopener noreferrer">
-          La actualidad de la Iglesia diocesana, en COPE Granada, el 20 de septiembre
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/almeria/el-cristo-de-la-luz-nos-pregunta-que-hacemos-con-la-luz-que-hemos-recibido/" target="_blank" rel="noopener noreferrer">
-          «El Cristo de la Luz nos pregunta qué hacemos con la luz que hemos recibido»
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/malaga/la-iii-semana-de-espiritualidad-invita-a-caminar-hacia-una-espiritualidad-sinodal/" target="_blank" rel="noopener noreferrer">
-          La III Semana de Espiritualidad invita a caminar «hacia una espiritualidad sinodal»
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">21 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/malaga/la-iglesia-necesita-estar-siempre-en-continua-reforma/" target="_blank" rel="noopener noreferrer">
-          «La Iglesia necesita estar siempre en continua reforma»
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">20 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/malaga/torre-de-benagalbon-25-anos-de-misioneros-seglares-vicencianos/" target="_blank" rel="noopener noreferrer">
-          TORRE DE BENAGALBÓN. 25 años de Misioneros Seglares Vicencianos
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">20 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/malaga/el-obispo-acompana-en-melilla-el-inicio-del-servicio-pastoral-del-nuevo-vicario-y-los-nuevos-parrocos/" target="_blank" rel="noopener noreferrer">
-          El Obispo acompaña, en Melilla, el inicio del servicio pastoral del nuevo vicario y los nuevos párrocos
-        </a>
-        <span class="titular__fuente">ODISUR</span>
-      </li>
-      <li class="titular">
         <span class="titular__fecha">20 de septiembre de 2026</span>
         <a class="titular__enlace" href="https://www.archisevilla.org/montellano-celebra-300-anos-de-devocion-a-la-virgen-de-los-dolores-con-una-funcion-solemne-presidida-por-monsenor-saiz/" target="_blank" rel="noopener noreferrer">
           Montellano celebra 300 años de devoción a la Virgen de los Dolores con una Función Solemne presidida por monseñor Saiz
         </a>
         <span class="titular__fuente">Archidiócesis de Sevilla</span>
-      </li>
-      <li class="titular">
-        <span class="titular__fecha">20 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://odisur.es/almeria/diez-cosas-que-debes-saber-del-nuevo-plan-pastoral-de-la-diocesis-de-almeria/" target="_blank" rel="noopener noreferrer">
-          DIEZ COSAS QUE DEBES SABER DEL NUEVO PLAN PASTORAL DE LA DIÓCESIS DE ALMERÍA
-        </a>
-        <span class="titular__fuente">ODISUR</span>
       </li>
       <li class="titular">
         <span class="titular__fecha">19 de septiembre de 2026</span>
@@ -273,18 +343,11 @@
         </a>
         <span class="titular__fuente">Archidiócesis de Sevilla</span>
       </li>
-      <li class="titular">
-        <span class="titular__fecha">18 de septiembre de 2026</span>
-        <a class="titular__enlace" href="https://www.archisevilla.org/archisevilla-7-dias-edicion-del-18-09-2026/" target="_blank" rel="noopener noreferrer">
-          ARCHISEVILLA 7 días. Edición del 18-09-2026
-        </a>
-        <span class="titular__fuente">Archidiócesis de Sevilla</span>
-      </li>
       </ul>
     </section>
 
   <footer>
-    Actualizado automáticamente el 21 de septiembre de 2026 a las 9:21. Fuentes: Archidiócesis de Sevilla, ODISUR, Catedral de Sevilla.
+    Actualizado automáticamente el 21 de septiembre de 2026 a las 14:21. Fuentes: Archidiócesis de Sevilla, ODISUR, Catedral de Sevilla.
   </footer>
 </main>
 </body>
