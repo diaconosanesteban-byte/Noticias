@@ -90,6 +90,12 @@ export function generarPaginaHtml({ generadoEn, titulares, proximosActos }) {
   main { max-width: 720px; margin: 0 auto; }
   header { margin-bottom: 32px; }
   h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .h1-desde {
+    display: block;
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--texto-tenue);
+  }
   .subtitulo { color: var(--texto-tenue); font-size: 0.95rem; margin: 0; }
   h2 {
     font-size: 1.05rem;
@@ -140,7 +146,7 @@ export function generarPaginaHtml({ generadoEn, titulares, proximosActos }) {
 <body>
 <main>
   <header>
-    <h1>Noticias de la Iglesia en Sevilla</h1>
+    <h1>Noticias de la Iglesia<span class="h1-desde">desde Sevilla</span></h1>
     <p class="subtitulo">Titulares ordenados cronológicamente, con enlace a la fuente original. No se reproduce el contenido de las noticias.</p>
   </header>
 
