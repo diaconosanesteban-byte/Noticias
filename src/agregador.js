@@ -10,8 +10,9 @@ import * as archisevilla from "./fuentes/archisevilla.js";
 import * as odisur from "./fuentes/odisur.js";
 import * as catedral from "./fuentes/catedral.js";
 import * as agenda from "./fuentes/agenda.js";
+import * as cee from "./fuentes/cee.js";
 
-const FUENTES_NOTICIAS = [archisevilla, odisur, catedral];
+const FUENTES_NOTICIAS = [archisevilla, odisur, catedral, cee];
 
 function normalizarFecha(fecha) {
   if (!fecha) return null;
