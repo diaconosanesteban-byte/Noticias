@@ -1,6 +1,18 @@
 {
-  "generadoEn": "2026-09-22T07:20:25.076Z",
+  "generadoEn": "2026-09-22T08:22:48.298Z",
   "titulares": [
+    {
+      "titulo": "Virgen dolorosa. Casa de Ejercicios ‘Betania’, en San Juan de Aznalfarache",
+      "url": "https://www.archisevilla.org/virgen-dolorosa-casa-de-ejercicios-betania-en-san-juan-de-aznalfarache/",
+      "fecha": "2026-09-22T08:10:50.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "La Parroquia de Jesús de Nazaret inicia un proyecto catequético con sus vidrieras",
+      "url": "https://www.archisevilla.org/la-parroquia-de-jesus-de-nazaret-inicia-un-proyecto-catequetico-con-sus-vidrieras/",
+      "fecha": "2026-09-22T08:00:36.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
     {
       "titulo": "La teóloga Carmen Álvarez participa en el Seminario de Formación Cofrade Antonio Domínguez Valverde",
       "url": "https://www.archisevilla.org/la-teologa-carmen-alvarez-participa-en-el-seminario-de-formacion-cofrade-antonio-dominguez-valverde/",
@@ -108,18 +120,6 @@
       "url": "https://www.archisevilla.org/monsenor-saiz-meneses-anima-a-los-responsables-de-life-teen-espana-a-seguir-sembrando-el-evangelio-entre-los-adolescentes/",
       "fecha": "2026-09-19T15:00:13.000Z",
       "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "ANIDI celebra en Dos Hermanas su 50 aniversario con una Eucaristía presidida por el arzobispo de Sevilla",
-      "url": "https://www.archisevilla.org/anidi-celebra-en-dos-hermanas-su-50-aniversario-con-una-eucaristia-presidida-por-el-arzobispo-de-sevilla/",
-      "fecha": "2026-09-19T09:40:14.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "‘Aquí estoy, envíame’, carta dominical del arzobispo de Sevilla (20-09-2026)",
-      "url": "https://www.archisevilla.org/aqui-estoy-enviame-carta-dominical-del-arzobispo-de-sevilla-20-09-2026/",
-      "fecha": "2026-09-19T08:00:11.000Z",
-      "fuente": "Archidiócesis de Sevilla"
     }
   ],
   "proximosActos": [
@@ -215,5 +215,10 @@
       "esAgenda": true
     }
   ],
-  "errores": []
+  "errores": [
+    {
+      "fuente": "fuente_3",
+      "error": "Request timed out after 60000ms"
+    }
+  ]
 }
