@@ -43,7 +43,9 @@ async function main() {
   );
 }
 
-main().catch((error) => {
-  console.error("El build falló:", error);
-  process.exitCode = 1;
-});
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error("El build falló:", error);
+    process.exit(1);
+  });
