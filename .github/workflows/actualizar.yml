@@ -2,16 +2,24 @@ name: Actualizar titulares
 
 on:
   schedule:
-    # Cada hora, en el minuto 7 (evita la sobrecarga habitual en GitHub Actions al minuto 0).
     - cron: "7 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -27,8 +35,10 @@ jobs:
 
       - name: Generar titulares y página
         run: npm run build
+        env:
+          TZ: Europe/Madrid
 
-      - name: Publicar cambios si hay titulares nuevos
+      - name: Guardar cambios si hay titulares nuevos
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -39,3 +49,12 @@ jobs:
             git commit -m "Actualizar titulares ($(date -u +'%Y-%m-%d %H:%M UTC'))"
             git push
           fi
+
+      - name: Preparar página para GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Publicar en GitHub Pages
+        id: despliegue
+        uses: actions/deploy-pages@v4
