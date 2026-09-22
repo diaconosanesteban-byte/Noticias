@@ -1,6 +1,3 @@
 [build]
-  command = "npm run build"
+  command = "echo Publicando la pagina generada por GitHub"
   publish = "public"
-
-[build.environment]
-  NODE_VERSION = "22"
