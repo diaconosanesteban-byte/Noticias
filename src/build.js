@@ -1,12 +1,13 @@
-// Script principal: agrega titulares de todas las fuentes, guarda el JSON
-// de datos (para poder comparar en el workflow si hay titulares nuevos) y
-// genera la página estática en public/index.html.
+// Script principal: agrega titulares de todas las fuentes, los combina con
+// el histórico guardado en data/titulares.json (últimos DIAS_HISTORICO
+// días), guarda el JSON de datos y genera la página estática en
+// public/index.html.
 //
 // Necesita salida a internet normal (local, GitHub Actions o el build de
 // Netlify/Vercel). No funciona en un sandbox sin acceso a internet — para
 // eso está `npm test`, que usa datos de muestra.
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { agregarTitulares } from "./agregador.js";
@@ -16,8 +17,69 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(RAIZ, "data");
 const PUBLIC_DIR = path.join(RAIZ, "public");
+const DATOS_JSON = path.join(DATA_DIR, "titulares.json");
+
+// Cuántos días se conservan las noticias en "Últimas noticias", aunque ya
+// hayan salido de los RSS de sus fuentes. Solo afecta a las noticias; los
+// "Próximos actos" no llevan histórico.
+const DIAS_HISTORICO = 2;
+
+// Lee los titulares guardados en el build anterior. Si el archivo no
+// existe o está dañado, se empieza sin histórico (el build no falla).
+async function leerHistorico() {
+  try {
+    const datos = JSON.parse(await readFile(DATOS_JSON, "utf8"));
+    return Array.isArray(datos.titulares) ? datos.titulares : [];
+  } catch {
+    return [];
+  }
+}
+
+// Une los titulares nuevos con el histórico:
+// - si una URL está en ambos, gana la versión nueva;
+// - del histórico solo se conservan los de los últimos DIAS_HISTORICO días
+//   (los antiguos sin fecha reconocible se descartan, porque no se puede
+//   saber cuándo caducan);
+// - resultado ordenado del más reciente al más antiguo, sin fecha al final.
+function combinarConHistorico(nuevos, historico, ahora = new Date()) {
+  const limite = ahora.getTime() - DIAS_HISTORICO * 24 * 60 * 60 * 1000;
+  const vistos = new Set();
+  const resultado = [];
+
+  for (const t of nuevos) {
+    const clave = (t.url || "").trim();
+    if (!clave || vistos.has(clave)) continue;
+    vistos.add(clave);
+    resultado.push(t);
+  }
+
+  for (const t of historico) {
+    const clave = (t.url || "").trim();
+    if (!clave || vistos.has(clave)) continue;
+    const ms = t.fecha ? new Date(t.fecha).getTime() : NaN;
+    if (Number.isNaN(ms) || ms < limite) continue;
+    vistos.add(clave);
+    resultado.push(t);
+  }
+
+  // También se retiran las noticias nuevas más antiguas que el límite, para
+  // que la ventana de días sea la misma para todas.
+  return resultado
+    .filter((t) => {
+      if (!t.fecha) return true;
+      const ms = new Date(t.fecha).getTime();
+      return Number.isNaN(ms) || ms >= limite;
+    })
+    .sort((a, b) => {
+      if (!a.fecha && !b.fecha) return 0;
+      if (!a.fecha) return 1;
+      if (!b.fecha) return -1;
+      return new Date(b.fecha) - new Date(a.fecha);
+    });
+}
 
 async function main() {
+  const historico = await leerHistorico();
   const resultado = await agregarTitulares();
 
   if (resultado.errores.length) {
@@ -26,11 +88,14 @@ async function main() {
     }
   }
 
+  const nuevosEnFuentes = resultado.titulares.length;
+  resultado.titulares = combinarConHistorico(resultado.titulares, historico);
+
   await mkdir(DATA_DIR, { recursive: true });
   await mkdir(PUBLIC_DIR, { recursive: true });
 
   await writeFile(
-    path.join(DATA_DIR, "titulares.json"),
+    DATOS_JSON,
     JSON.stringify(resultado, null, 2) + "\n",
     "utf8"
   );
@@ -39,7 +104,7 @@ async function main() {
   await writeFile(path.join(PUBLIC_DIR, "index.html"), html, "utf8");
 
   console.log(
-    `Listo: ${resultado.titulares.length} titulares, ${resultado.proximosActos.length} próximos actos.`
+    `Listo: ${resultado.titulares.length} titulares (${nuevosEnFuentes} en las fuentes ahora, histórico de ${DIAS_HISTORICO} días), ${resultado.proximosActos.length} próximos actos.`
   );
 }
 
