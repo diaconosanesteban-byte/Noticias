@@ -24,15 +24,26 @@ const DATOS_JSON = path.join(DATA_DIR, "titulares.json");
 // "Próximos actos" no llevan histórico.
 const DIAS_HISTORICO = 2;
 
-// Lee los titulares guardados en el build anterior. Si el archivo no
-// existe o está dañado, se empieza sin histórico (el build no falla).
+// Lee los datos guardados en el build anterior. Si el archivo no existe o
+// está dañado, se empieza sin histórico (el build no falla).
 async function leerHistorico() {
   try {
     const datos = JSON.parse(await readFile(DATOS_JSON, "utf8"));
-    return Array.isArray(datos.titulares) ? datos.titulares : [];
+    return {
+      titulares: Array.isArray(datos.titulares) ? datos.titulares : [],
+      proximosActos: Array.isArray(datos.proximosActos) ? datos.proximosActos : [],
+    };
   } catch {
-    return [];
+    return { titulares: [], proximosActos: [] };
   }
+}
+
+// Si la agenda de archisevilla.org falla (web caída), se mantienen los
+// actos de la última actualización buena, quitando los que ya pasaron.
+function actosAnterioresVigentes(actos, ahora = new Date()) {
+  const hoy = new Date(ahora);
+  hoy.setHours(0, 0, 0, 0);
+  return actos.filter((a) => a.fecha && new Date(a.fecha) >= hoy);
 }
 
 // Une los titulares nuevos con el histórico:
@@ -89,7 +100,17 @@ async function main() {
   }
 
   const nuevosEnFuentes = resultado.titulares.length;
-  resultado.titulares = combinarConHistorico(resultado.titulares, historico);
+  resultado.titulares = combinarConHistorico(
+    resultado.titulares,
+    historico.titulares
+  );
+
+  if (resultado.errores.some((e) => e.fuente === "agenda")) {
+    resultado.proximosActos = actosAnterioresVigentes(historico.proximosActos);
+    console.error(
+      `[aviso] Agenda no disponible: se mantienen ${resultado.proximosActos.length} actos de la actualización anterior.`
+    );
+  }
 
   await mkdir(DATA_DIR, { recursive: true });
   await mkdir(PUBLIC_DIR, { recursive: true });
