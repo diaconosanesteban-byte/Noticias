@@ -1,6 +1,18 @@
 {
-  "generadoEn": "2026-09-23T07:21:15.418Z",
+  "generadoEn": "2026-09-23T08:21:33.883Z",
   "titulares": [
+    {
+      "titulo": "La Catedral retoma las misas en inglés y francés y la celebración en lengua de signos",
+      "url": "https://www.archisevilla.org/la-catedral-retoma-las-misas-en-ingles-y-frances-y-la-celebracion-en-lengua-de-signos/",
+      "fecha": "2026-09-23T07:25:54.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Concierto de Órgano a cargo de Mattias Wager",
+      "url": "https://odisur.es/granada/concierto-de-organo-a-cargo-de-mattias-wager/",
+      "fecha": "2026-09-23T06:36:50.000Z",
+      "fuente": "ODISUR"
+    },
     {
       "titulo": "La alfombra del siglo XVIII que se conserva en la Catedral podrá visitarse en el trascoro",
       "url": "https://odisur.es/cartagena/la-alfombra-del-siglo-xviii-que-se-conserva-en-la-catedral-podra-visitarse-en-el-trascoro/",
@@ -56,12 +68,6 @@
       "fuente": "ODISUR"
     },
     {
-      "titulo": "La Virgen de la Peña reúne a los majoreros en Vega de Río Palmas",
-      "url": "https://odisur.es/canarias/la-virgen-de-la-pena-reune-a-los-majoreros-en-vega-de-rio-palmas/",
-      "fecha": "2026-09-22T12:03:18.000Z",
-      "fuente": "ODISUR"
-    },
-    {
       "titulo": "El VI Paseo Ecuménico recorrerá Sevilla bajo el lema «Inmersión en el agua viva»",
       "url": "https://www.archisevilla.org/el-vi-paseo-ecumenico-recorrera-sevilla-bajo-el-lema-inmersion-en-el-agua-viva/",
       "fecha": "2026-09-22T12:00:47.000Z",
@@ -113,12 +119,6 @@
       "titulo": "Preparación de la participación de los jóvenes sevillanos en la JMJ de Seúl",
       "url": "https://www.archisevilla.org/preparacion-de-la-participacion-de-los-jovenes-sevillanos-en-la-jmj-de-seul/",
       "fecha": "2026-09-21T09:00:19.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "JORNADA MUNDIAL DEL MIGRANTE Y EL REFUGIADO 2026. Salvador Diánez: “España siempre ha sido un país hospitalario que sabe acompañar”",
-      "url": "https://www.archisevilla.org/jornada-mundial-del-migrante-y-el-refugiado-2026-salvador-dianez-espana-siempre-ha-sido-un-pais-hospitalario-que-sabe-acompanar/",
-      "fecha": "2026-09-21T08:00:27.000Z",
       "fuente": "Archidiócesis de Sevilla"
     }
   ],
