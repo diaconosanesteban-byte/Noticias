@@ -81,7 +81,9 @@ function esEnlaceDeEntrada(href) {
 
 export function extraerTitularesDeHtml(html) {
   const $ = cheerio.load(html);
-  $("header, nav, footer, script, style").remove();
+  // <noscript> guarda la imagen como texto HTML literal; se quita para que
+  // no acabe dentro del titular.
+  $("header, nav, footer, script, style, noscript").remove();
 
   const porUrl = new Map();
 
@@ -90,7 +92,9 @@ export function extraerTitularesDeHtml(html) {
     const url = esEnlaceDeEntrada($a.attr("href"));
     if (!url) return;
 
-    const titulo = $a.text().replace(/\s+/g, " ").trim();
+    let titulo = $a.text().replace(/\s+/g, " ").trim();
+    // Por si acaso: un texto con restos de HTML no es un titular.
+    if (/[<>]|src=|\.(jpe?g|png|webp)\b/i.test(titulo)) titulo = "";
 
     // Busca la fecha: primero en <time>, luego en el texto del bloque.
     let fecha = null;
