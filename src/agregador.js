@@ -83,7 +83,12 @@ export async function agregarTitulares({
   }));
 
   titulares = ordenarPorFechaDesc(quitarDuplicadosPorUrl(titulares));
-  proximosActos = ordenarPorFechaDesc(quitarDuplicadosPorUrl(proximosActos));
+ proximosActos = quitarDuplicadosPorUrl(proximosActos).sort((a, b) => {
+    if (!a.fecha && !b.fecha) return 0;
+    if (!a.fecha) return 1;
+    if (!b.fecha) return -1;
+    return new Date(a.fecha) - new Date(b.fecha);
+  });
 
   return {
     generadoEn: new Date().toISOString(),
