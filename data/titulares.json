@@ -1,6 +1,18 @@
 {
-  "generadoEn": "2026-09-23T11:23:24.792Z",
+  "generadoEn": "2026-09-23T12:25:23.455Z",
   "titulares": [
+    {
+      "titulo": "La preparación al matrimonio, un servicio más de las hermandades sevillanas",
+      "url": "https://www.archisevilla.org/la-preparacion-al-matrimonio-un-servicio-mas-de-las-hermandades-sevillanas/",
+      "fecha": "2026-09-23T12:00:46.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "La Basílica ofrecerá la Eucaristía diaria en el Centro Parroquial San Juan Pablo II",
+      "url": "https://odisur.es/granada/la-basilica-ofrecera-la-eucaristia-diaria-en-el-centro-parroquial-san-juan-pablo-ii/",
+      "fecha": "2026-09-23T11:21:04.000Z",
+      "fuente": "ODISUR"
+    },
     {
       "titulo": "La Facultad de Teología San Isidoro inaugura el curso académico 2026-27 el próximo 1 de octubre",
       "url": "https://www.archisevilla.org/la-facultad-de-teologia-san-isidoro-inaugura-el-curso-academico-2026-27-el-proximo-1-de-octubre/",
@@ -146,15 +158,98 @@
       "fuente": "Archidiócesis de Sevilla"
     }
   ],
-  "proximosActos": [],
-  "errores": [
+  "proximosActos": [
     {
-      "fuente": "fuente_0",
-      "error": "Request timed out after 60000ms"
+      "titulo": "Conferencia del arzobispo en el Colegio de Médicos",
+      "url": "https://www.archisevilla.org/evento/conferencia-del-arzobispo-en-el-colegio-de-medicos/",
+      "fecha": "2026-09-24T17:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
     },
     {
-      "fuente": "agenda",
-      "error": "fetch failed"
+      "titulo": "Celebración de la patrona de Instituciones Penitenciarias",
+      "url": "https://www.archisevilla.org/evento/celebracion-de-la-patrona-de-instituciones-penitenciarias/",
+      "fecha": "2026-09-25T08:30:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Ordenaciones en la Catedral",
+      "url": "https://www.archisevilla.org/evento/ordenaciones-en-la-catedral-2/",
+      "fecha": "2026-09-26T09:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Eucaristía Jornada Mundial del Migrante y refugiado",
+      "url": "https://www.archisevilla.org/evento/eucaristia-jornada-mundial-del-migrante-y-refugiado/",
+      "fecha": "2026-09-27T10:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Toma de Cruces de los seminaristas",
+      "url": "https://www.archisevilla.org/evento/toma-de-cruces-de-los-seminaristas-2/",
+      "fecha": "2026-09-27T18:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Apertura del curso académico en la Facultad de Teología",
+      "url": "https://www.archisevilla.org/evento/apertura-del-curso-academico-en-la-facultad-de-teologia-2/",
+      "fecha": "2026-10-01T08:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Apertura de curso cofrade en Sevilla",
+      "url": "https://www.archisevilla.org/evento/apertura-de-curso-cofrade-en-sevilla/",
+      "fecha": "2026-10-01T18:30:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación de la Virgen de las Angustias, en Utrera",
+      "url": "https://www.archisevilla.org/evento/coronacion-de-la-virgen-de-las-angustias-en-utrera/",
+      "fecha": "2026-10-03T17:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación canónica de Ntra. Sra. del Amparo",
+      "url": "https://www.archisevilla.org/evento/coronacion-canonica-de-ntra-sra-del-amparo/",
+      "fecha": "2026-11-07T23:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación canónica de la Virgen de Guaditoca",
+      "url": "https://www.archisevilla.org/evento/coronacion-canonica-de-la-virgen-de-guaditoca/",
+      "fecha": "2027-07-02T22:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación de la Virgen de Los Remedios, de Los Palacios",
+      "url": "https://www.archisevilla.org/evento/coronacion-de-la-virgen-de-los-remedios-de-los-palacios/",
+      "fecha": "2027-10-22T22:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación canónica de la Virgen de las Nieves de Olivares",
+      "url": "https://www.archisevilla.org/evento/coronacion-canonica-de-la-virgen-de-las-nieves-de-olivares/",
+      "fecha": "2028-04-28T22:00:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
+    },
+    {
+      "titulo": "Coronación de la Virgen de los Dolores de Guillena",
+      "url": "https://www.archisevilla.org/evento/coronacion-de-la-virgen-de-los-dolores-de-guillena/",
+      "fecha": "2028-06-24T18:30:00.000Z",
+      "fuente": "Agenda — Archidiócesis de Sevilla",
+      "esAgenda": true
     }
-  ]
+  ],
+  "errores": []
 }
