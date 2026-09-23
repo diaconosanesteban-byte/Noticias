@@ -1,11 +1,23 @@
 {
-  "generadoEn": "2026-09-23T09:20:28.287Z",
+  "generadoEn": "2026-09-23T10:20:32.846Z",
   "titulares": [
+    {
+      "titulo": "La Facultad de Teología San Isidoro inaugura el curso académico 2026-27 el próximo 1 de octubre",
+      "url": "https://www.archisevilla.org/la-facultad-de-teologia-san-isidoro-inaugura-el-curso-academico-2026-27-el-proximo-1-de-octubre/",
+      "fecha": "2026-09-23T10:00:21.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
     {
       "titulo": "La Parroquia del Cristo del Perdón entronizará este domingo una reliquia de san Carlo Acutis",
       "url": "https://www.archisevilla.org/la-parroquia-del-cristo-del-perdon-entronizara-este-domingo-una-reliquia-de-san-carlo-acutis/",
       "fecha": "2026-09-23T09:00:54.000Z",
       "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Carrera solidaria para ayudar a la parroquia de La Alberca",
+      "url": "https://odisur.es/cartagena/carrera-solidaria-para-ayudar-a-la-parroquia-de-la-alberca/",
+      "fecha": "2026-09-23T08:52:02.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "La Catedral retoma las misas en inglés y francés y la celebración en lengua de signos",
@@ -68,12 +80,6 @@
       "fuente": "ODISUR"
     },
     {
-      "titulo": "Almanjáyar en familia, “nuestra segunda casa”",
-      "url": "https://odisur.es/granada/almanjayar-en-familia-nuestra-segunda-casa/",
-      "fecha": "2026-09-22T12:10:07.000Z",
-      "fuente": "ODISUR"
-    },
-    {
       "titulo": "El VI Paseo Ecuménico recorrerá Sevilla bajo el lema «Inmersión en el agua viva»",
       "url": "https://www.archisevilla.org/el-vi-paseo-ecumenico-recorrera-sevilla-bajo-el-lema-inmersion-en-el-agua-viva/",
       "fecha": "2026-09-22T12:00:47.000Z",
@@ -113,12 +119,6 @@
       "titulo": "La Renovación Carismática Católica de Sevilla propone cuatro Seminarios de Vida en el Espíritu para el próximo curso",
       "url": "https://www.archisevilla.org/la-renovacion-carismatica-catolica-de-sevilla-propone-cuatro-seminarios-de-vida-en-el-espiritu-para-el-proximo-curso/",
       "fecha": "2026-09-21T10:00:30.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "La Archidiócesis prepara ya la participación de los jóvenes sevillanos en la JMJ de Seúl",
-      "url": "https://www.archisevilla.org/la-archidiocesis-prepara-ya-la-participacion-de-los-jovenes-sevillanos-en-la-jmj-de-seul/",
-      "fecha": "2026-09-21T09:00:56.000Z",
       "fuente": "Archidiócesis de Sevilla"
     }
   ],
