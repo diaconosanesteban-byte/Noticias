@@ -11,6 +11,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { agregarTitulares } from "./agregador.js";
+import { crearFiltroDuplicados } from "./duplicados.js";
 import { generarPaginaHtml } from "./generador.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -47,30 +48,25 @@ function actosAnterioresVigentes(actos, ahora = new Date()) {
 }
 
 // Une los titulares nuevos con el histórico:
-// - si una URL está en ambos, gana la versión nueva;
+// - si un titular está en ambos (misma URL o mismo titular de la misma
+//   fuente), gana la versión nueva;
 // - del histórico solo se conservan los de los últimos DIAS_HISTORICO días
 //   (los antiguos sin fecha reconocible se descartan, porque no se puede
 //   saber cuándo caducan);
 // - resultado ordenado del más reciente al más antiguo, sin fecha al final.
 function combinarConHistorico(nuevos, historico, ahora = new Date()) {
   const limite = ahora.getTime() - DIAS_HISTORICO * 24 * 60 * 60 * 1000;
-  const vistos = new Set();
+  const filtro = crearFiltroDuplicados();
   const resultado = [];
 
   for (const t of nuevos) {
-    const clave = (t.url || "").trim();
-    if (!clave || vistos.has(clave)) continue;
-    vistos.add(clave);
-    resultado.push(t);
+    if (filtro.aceptar(t)) resultado.push(t);
   }
 
   for (const t of historico) {
-    const clave = (t.url || "").trim();
-    if (!clave || vistos.has(clave)) continue;
     const ms = t.fecha ? new Date(t.fecha).getTime() : NaN;
     if (Number.isNaN(ms) || ms < limite) continue;
-    vistos.add(clave);
-    resultado.push(t);
+    if (filtro.aceptar(t)) resultado.push(t);
   }
 
   // También se retiran las noticias nuevas más antiguas que el límite, para

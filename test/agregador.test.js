@@ -64,3 +64,20 @@ test("recoge el error de una fuente sin tumbar el build entero", async () => {
   assert.equal(resultado.errores.length, 1);
   assert.match(resultado.errores[0].error, /403/);
 });
+
+test("quita la noticia repetida por la misma fuente con URL terminada en -2", async () => {
+  const original = {
+    titulo: "Jerez se prepara para celebrar mañana la solemnidad",
+    url: "https://odisur.es/asidonia-jerez/jerez-se-prepara/",
+    fecha: "2026-09-23T11:20:13.000Z",
+    fuente: "ODISUR",
+  };
+  const copia = { ...original, url: "https://odisur.es/asidonia-jerez/jerez-se-prepara-2/" };
+  const otraFuente = { ...original, url: "https://www.archisevilla.org/jerez/", fuente: "Archidiócesis de Sevilla" };
+  const resultado = await agregarTitulares({
+    fuentesNoticias: [fuenteFalsa("odisur", [original, copia]), fuenteFalsa("archisevilla", [otraFuente])],
+    incluirAgenda: false,
+  });
+  assert.equal(resultado.titulares.length, 2); // la copia -2 fuera; la de otra fuente se mantiene
+  assert.ok(!resultado.titulares.some((t) => t.url.endsWith("-2/")));
+});

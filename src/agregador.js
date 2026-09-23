@@ -1,16 +1,17 @@
 // Combina titulares de todas las fuentes, quita duplicados exactos por URL
 // y ordena cronológicamente (más recientes primero).
 //
-// Dedupe solo por URL exacta en v1: si odisur.es y archisevilla.org
-// reenlazan el mismo suceso bajo URLs distintas, aparecerán como dos
-// entradas. Es una limitación conocida y aceptada (ver README). Fusionar
-// duplicados "del mismo suceso" queda para fase 2.
+// Duplicados: misma URL, o mismo titular dentro de la misma fuente (ver
+// src/duplicados.js). Si dos fuentes DISTINTAS cuentan el mismo suceso,
+// se muestran ambas. Los próximos actos solo se deduplican por URL, porque
+// un mismo acto puede repetirse en fechas distintas con el mismo título.
 
 import * as archisevilla from "./fuentes/archisevilla.js";
 import * as odisur from "./fuentes/odisur.js";
 import * as catedral from "./fuentes/catedral.js";
 import * as agenda from "./fuentes/agenda.js";
 import * as cee from "./fuentes/cee.js";
+import { quitarDuplicados } from "./duplicados.js";
 
 const FUENTES_NOTICIAS = [archisevilla, odisur, catedral, cee];
 
@@ -82,7 +83,7 @@ export async function agregarTitulares({
     fecha: normalizarFecha(t.fecha),
   }));
 
-  titulares = ordenarPorFechaDesc(quitarDuplicadosPorUrl(titulares));
+  titulares = ordenarPorFechaDesc(quitarDuplicados(titulares));
  proximosActos = quitarDuplicadosPorUrl(proximosActos).sort((a, b) => {
     if (!a.fecha && !b.fecha) return 0;
     if (!a.fecha) return 1;
