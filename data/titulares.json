@@ -1,6 +1,12 @@
 {
-  "generadoEn": "2026-09-24T11:20:14.475Z",
+  "generadoEn": "2026-09-24T12:25:29.122Z",
   "titulares": [
+    {
+      "titulo": "La Hermandad de San Esteban celebra las I Jornadas de Turismo Religioso en torno a la celebración de la Jornada Mundial del Turismo",
+      "url": "https://www.archisevilla.org/la-hermandad-de-san-esteban-celebra-las-i-jornadas-de-turismo-religioso-en-torno-a-la-celebracion-de-la-jornada-mundial-del-turismo/",
+      "fecha": "2026-09-24T12:00:51.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
     {
       "titulo": "La Pastoral con Jóvenes celebrará una Jornada Deportiva Diocesana como espacio de encuentro",
       "url": "https://www.archisevilla.org/la-pastoral-con-jovenes-celebrara-una-jornada-deportiva-diocesana-como-espacio-de-encuentro/",
@@ -12,6 +18,12 @@
       "url": "https://www.archisevilla.org/los-misioneros-del-verbo-divino-dirigiran-la-parroquia-de-san-jeronimo/",
       "fecha": "2026-09-24T11:00:08.000Z",
       "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "El Instituto de Teología Lumen Gentim inaugura el nuevo curso 2026-27, junto con la Facultad de Teología",
+      "url": "https://odisur.es/granada/el-instituto-de-teologia-lumen-gentim-inaugura-el-nuevo-curso-2026-27-junto-con-la-facultad-de-teologia/",
+      "fecha": "2026-09-24T10:53:55.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "«Aquí se ha despejado la nube oscura que existía en mi vida»",
@@ -222,18 +234,6 @@
       "url": "https://odisur.es/malaga/los-nuevos-delegados-diocesanos-firman-sus-cargos-y-hacen-profesion-de-fe/",
       "fecha": "2026-09-22T12:26:00.000Z",
       "fuente": "ODISUR"
-    },
-    {
-      "titulo": "El Señor viene a buscar fruto en nosotros, como viene a buscar a su viña",
-      "url": "https://odisur.es/granada/arzobispo-de-granada/el-senor-viene-a-buscar-fruto-en-nosotros-como-viene-a-buscar-a-su-vina-2/",
-      "fecha": "2026-09-22T12:16:56.000Z",
-      "fuente": "ODISUR"
-    },
-    {
-      "titulo": "El VI Paseo Ecuménico recorrerá Sevilla bajo el lema «Inmersión en el agua viva»",
-      "url": "https://www.archisevilla.org/el-vi-paseo-ecumenico-recorrera-sevilla-bajo-el-lema-inmersion-en-el-agua-viva/",
-      "fecha": "2026-09-22T12:00:47.000Z",
-      "fuente": "Archidiócesis de Sevilla"
     }
   ],
   "proximosActos": [
