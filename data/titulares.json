@@ -1,5 +1,5 @@
 {
-  "generadoEn": "2026-09-24T09:21:41.176Z",
+  "generadoEn": "2026-09-24T10:20:41.106Z",
   "titulares": [
     {
       "url": "https://www.catedraldesevilla.es/la-virgen-de-la-merced-una-historia-de-fe-y-libertad-presente-en-la-catedral-de-sevilla/",
@@ -14,6 +14,12 @@
       "fuente": "Catedral de Sevilla"
     },
     {
+      "titulo": "Mensaje del papa León XIV para la Jornada Mundial del Migrante y del Refugiado",
+      "url": "https://odisur.es/malaga/mensaje-del-papa-leon-xiv-para-la-jornada-mundial-del-migrante-y-del-refugiado/",
+      "fecha": "2026-09-24T07:34:00.000Z",
+      "fuente": "ODISUR"
+    },
+    {
       "titulo": "LA RISA: RECUPERAR LA ALEGRÍA DE CREER, por Jesús Martín Gómez",
       "url": "https://odisur.es/almeria/la-risa-recuperar-la-alegria-de-creer-por-jesus-martin-gomez/",
       "fecha": "2026-09-24T06:59:20.000Z",
@@ -23,6 +29,12 @@
       "titulo": "Las Delegaciones y Secretariados Diocesanos abren el nuevo curso pastoral con la mirada puesta en la Asamblea Diocesana de 2027",
       "url": "https://odisur.es/huelva/las-delegaciones-y-secretariados-diocesanos-abren-el-nuevo-curso-pastoral-con-la-mirada-puesta-en-la-asamblea-diocesana-de-2027/",
       "fecha": "2026-09-24T06:38:01.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Juventud prepara la Semana de Cine Espiritual invitando a tener valor",
+      "url": "https://odisur.es/malaga/juventud-prepara-la-semana-de-cine-espiritual-invitando-a-tener-valor/",
+      "fecha": "2026-09-24T06:11:00.000Z",
       "fuente": "ODISUR"
     },
     {
@@ -192,30 +204,6 @@
       "url": "https://www.archisevilla.org/el-vi-paseo-ecumenico-recorrera-sevilla-bajo-el-lema-inmersion-en-el-agua-viva/",
       "fecha": "2026-09-22T12:00:47.000Z",
       "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "Sevilla acoge la exposición solidaria ‘Eterno Morante’ a beneficio de Manos Unidas",
-      "url": "https://www.archisevilla.org/sevilla-acoge-la-exposicion-solidaria-eterno-morante-a-beneficio-de-manos-unidas/",
-      "fecha": "2026-09-22T10:00:25.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "url": "https://www.catedraldesevilla.es/la-catedral-de-sevilla-y-la-iglesia-del-salvador-encienden-su-luz-en-la-noche-en-blanco-2026/",
-      "titulo": "LA CATEDRAL DE SEVILLA Y LA IGLESIA DEL SALVADOR ENCIENDEN SU LUZ EN LA NOCHE EN BLANCO 2026",
-      "fecha": "2026-09-22T10:00:00.000Z",
-      "fuente": "Catedral de Sevilla"
-    },
-    {
-      "url": "https://www.catedraldesevilla.es/la-catedral-de-sevilla-ofrece-manana-un-nuevo-concierto-de-organo-en-los-venerables/",
-      "titulo": "LA CATEDRAL DE SEVILLA OFRECE MAÑANA UN NUEVO CONCIERTO DE ÓRGANO EN LOS VENERABLES",
-      "fecha": "2026-09-22T10:00:00.000Z",
-      "fuente": "Catedral de Sevilla"
-    },
-    {
-      "url": "https://www.catedraldesevilla.es/la-catedral-de-sevilla-colabora-tecnicamente-con-la-catedral-de-granada-en-la-conservacion-de-su-patrimonio/",
-      "titulo": "La Catedral de Sevilla colabora técnicamente con la Catedral de Granada en la conservación de su patrimonio",
-      "fecha": "2026-09-22T10:00:00.000Z",
-      "fuente": "Catedral de Sevilla"
     }
   ],
   "proximosActos": [
