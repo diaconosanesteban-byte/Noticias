@@ -1,6 +1,12 @@
 {
-  "generadoEn": "2026-09-25T12:25:32.140Z",
+  "generadoEn": "2026-09-25T13:22:17.392Z",
   "titulares": [
+    {
+      "titulo": "ARCHISEVILLA 7 días. Edición del 25-09-2026",
+      "url": "https://www.archisevilla.org/archisevilla-7-dias-edicion-del-25-09-2026/",
+      "fecha": "2026-09-25T12:30:41.000Z",
+      "fuente": "Archidiócesis de Sevilla"
+    },
     {
       "titulo": "Abrir caminos de libertad",
       "url": "https://odisur.es/sevilla/arzobispo-de-sevilla/abrir-caminos-de-libertad/",
@@ -30,6 +36,30 @@
       "url": "https://www.archisevilla.org/monsenor-saiz-la-dignidad-no-se-pierde-en-la-celebracion-de-la-merced-con-las-instituciones-penitenciarias/",
       "fecha": "2026-09-25T12:00:54.000Z",
       "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Los diáconos permanentes de Asidonia-Jerez celebran en Chipiona su convivencia de inicio de curso",
+      "url": "https://odisur.es/asidonia-jerez/los-diaconos-permanentes-de-asidonia-jerez-celebran-en-chipiona-su-convivencia-de-inicio-de-curso/",
+      "fecha": "2026-09-25T11:44:29.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Asidonia-Jerez acogerá el próximo 1 de octubre la presentación del Informe de Libertad Religiosa en el Mundo 2025",
+      "url": "https://odisur.es/asidonia-jerez/asidonia-jerez-acogera-el-proximo-1-de-octubre-la-presentacion-del-informe-de-libertad-religiosa-en-el-mundo-2025/",
+      "fecha": "2026-09-25T11:07:19.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Ya disponibles las conferencias de la XXXVII Semana Diocesana de Teología",
+      "url": "https://odisur.es/asidonia-jerez/ya-disponibles-las-conferencias-de-la-xxxvii-semana-diocesana-de-teologia/",
+      "fecha": "2026-09-25T11:01:32.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Asidonia-Jerez vive la celebración de la patrona de Jerez, la Virgen de la Merced",
+      "url": "https://odisur.es/asidonia-jerez/asidonia-jerez-vive-la-celebracion-de-la-patrona-de-jerez-la-virgen-de-la-merced/",
+      "fecha": "2026-09-25T10:41:29.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "Nuevo curso académico en el Seminario Diocesano y el Instituto Teológico San Leandro",
@@ -226,7 +256,7 @@
     {
       "titulo": "Sevilla celebrará la Jornada Mundial del Migrante y del Refugiado con una Eucaristía y un Círculo de Silencio",
       "url": "https://www.archisevilla.org/sevilla-celebrara-la-jornada-mundial-del-migrante-y-del-refugiado-con-una-eucaristia-y-un-circulo-de-silencio/",
-      "fecha": "2026-09-24T14:00:15.000Z",
+      "fecha": "2026-09-24T16:00:15.000Z",
       "fuente": "Archidiócesis de Sevilla"
     },
     {
@@ -377,30 +407,6 @@
       "titulo": "Ha fallecido, a los 93 años, el sacerdote D. Gabriel Pérez Sánchez",
       "url": "https://odisur.es/malaga/ha-fallecido-a-los-93-anos-el-sacerdote-d-gabriel-perez-sanchez/",
       "fecha": "2026-09-23T21:15:00.000Z",
-      "fuente": "ODISUR"
-    },
-    {
-      "titulo": "La Pastoral Penitenciaria celebra la festividad de la Virgen de la Merced",
-      "url": "https://odisur.es/cordoba/la-pastoral-penitenciaria-celebra-la-festividad-de-la-virgen-de-la-merced/",
-      "fecha": "2026-09-23T12:32:42.000Z",
-      "fuente": "ODISUR"
-    },
-    {
-      "titulo": "La Archidiócesis de Sevilla ordena a cuatro nuevos diáconos (2026)",
-      "url": "https://www.archisevilla.org/la-archidiocesis-de-sevilla-ordena-a-cuatro-nuevos-diaconos-2026/",
-      "fecha": "2026-09-23T12:31:18.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "El diaconado, una llamada al servicio",
-      "url": "https://www.archisevilla.org/el-diaconado-una-llamada-al-servicio/",
-      "fecha": "2026-09-23T12:30:52.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "titulo": "Mons. Ramón Valdivia anima a los profesores de Religión a vivir con confianza su misión educativa",
-      "url": "https://odisur.es/cadiz-y-ceuta/mons-ramon-valdivia-anima-a-los-profesores-de-religion-a-vivir-con-confianza-su-mision-educativa/",
-      "fecha": "2026-09-23T12:25:47.000Z",
       "fuente": "ODISUR"
     }
   ],
