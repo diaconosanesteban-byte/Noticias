@@ -1,11 +1,41 @@
 {
-  "generadoEn": "2026-09-25T09:21:03.742Z",
+  "generadoEn": "2026-09-25T10:21:34.937Z",
   "titulares": [
     {
       "url": "https://www.catedraldesevilla.es/la-catedral-y-el-sector-turistico-de-sevilla-crean-una-mesa-de-coordinacion-para-reforzar-el-dialogo-y-la-colaboracion/",
       "titulo": "La Catedral y el sector turístico de Sevilla crean una mesa de coordinación para reforzar el diálogo y la colaboración",
       "fecha": "2026-09-25T10:00:00.000Z",
       "fuente": "Catedral de Sevilla"
+    },
+    {
+      "titulo": "El estreno del nuevo capítulo de “The Chosen” se podrá ver en el marco de las Jornadas de inicio de curso de ERE",
+      "url": "https://odisur.es/tenerife/el-estreno-del-nuevo-capitulo-de-the-chosen-se-podra-ver-en-el-marco-de-las-jornadas-de-inicio-de-curso-de-ere/",
+      "fecha": "2026-09-25T09:50:33.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Monseñor Orozco asistió a la apertura del curso académico de la Facultad de Teología y el Instituto de Teología Lumen Gentim en Granada",
+      "url": "https://odisur.es/guadix/monsenor-orozco-asistio-a-la-apertura-del-curso-academico-de-la-facultad-de-teologia-y-el-instituto-de-teologia-lumen-gentim-en-granada/",
+      "fecha": "2026-09-25T09:48:32.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "Las órdenes religiosas en el siglo XXI, por Juan Antonio Díaz Sánchez",
+      "url": "https://odisur.es/guadix/las-ordenes-religiosas-en-el-siglo-xxi-por-juan-antonio-diaz-sanchez/",
+      "fecha": "2026-09-25T09:47:31.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "La Diócesis de Jaén pone en marcha los canales digitales del Año Jubilar diocesano de la Virgen de la Cabeza",
+      "url": "https://odisur.es/jaen/la-diocesis-de-jaen-pone-en-marcha-los-canales-digitales-del-ano-jubilar-diocesano-de-la-virgen-de-la-cabeza/",
+      "fecha": "2026-09-25T09:45:57.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "El Obispo asiste, en Granada, a la apertura del curso académico de la Facultad de Teología",
+      "url": "https://odisur.es/jaen/el-obispo-asiste-en-granada-a-la-apertura-del-curso-academico-de-la-facultad-de-teologia/",
+      "fecha": "2026-09-25T09:45:02.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "Ordenaciones diaconales y Jornada de Migraciones, principales temas de la programación religiosa de COPE Sevilla este fin de semana",
@@ -24,6 +54,18 @@
       "url": "https://www.archisevilla.org/evangelio-del-xxvi-domingo-de-tiempo-ordinario-ciclo-a-en-lengua-de-signos-espanola-2026/",
       "fecha": "2026-09-25T08:00:03.000Z",
       "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "El lienzo conservado en la sacristía de la Catedral de «la que vive en la carrera»",
+      "url": "https://odisur.es/malaga/el-lienzo-conservado-en-la-sacristia-de-la-catedral-de-la-que-vive-en-la-carrera/",
+      "fecha": "2026-09-25T07:54:00.000Z",
+      "fuente": "ODISUR"
+    },
+    {
+      "titulo": "San Vicente de Paúl, el contagioso carisma de la caridad",
+      "url": "https://odisur.es/malaga/san-vicente-de-paul-el-contagioso-carisma-de-la-caridad/",
+      "fecha": "2026-09-25T07:40:00.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "Abrir caminos de libertad",
@@ -354,24 +396,6 @@
       "url": "https://odisur.es/asidonia-jerez/asidonia-jerez-abre-un-camino-de-formacion-y-trabajo-conjunto-para-la-aplicacion-de-la-nueva-normativa-de-hermandades-y-cofradias/",
       "fecha": "2026-09-23T10:54:25.000Z",
       "fuente": "ODISUR"
-    },
-    {
-      "titulo": "La Facultad de Teología San Isidoro inaugura el curso académico 2026-27 el próximo 1 de octubre",
-      "url": "https://www.archisevilla.org/la-facultad-de-teologia-san-isidoro-inaugura-el-curso-academico-2026-27-el-proximo-1-de-octubre/",
-      "fecha": "2026-09-23T10:00:21.000Z",
-      "fuente": "Archidiócesis de Sevilla"
-    },
-    {
-      "url": "https://www.catedraldesevilla.es/los-atriles-de-la-virgen-de-los-reyes-una-obra-de-plata-para-leer-los-simbolos-de-maria/",
-      "titulo": "Los atriles de la Virgen de los Reyes: una obra de plata para leer los símbolos de María",
-      "fecha": "2026-09-23T10:00:00.000Z",
-      "fuente": "Catedral de Sevilla"
-    },
-    {
-      "url": "https://www.catedraldesevilla.es/como-hernando-colon-intento-reunir-todo-el-conocimiento-del-mundo-en-una-sola-biblioteca/",
-      "titulo": "Cómo Hernando Colón intentó reunir todo el conocimiento del mundo en una sola biblioteca",
-      "fecha": "2026-09-23T10:00:00.000Z",
-      "fuente": "Catedral de Sevilla"
     }
   ],
   "proximosActos": [
@@ -460,5 +484,10 @@
       "esAgenda": true
     }
   ],
-  "errores": []
+  "errores": [
+    {
+      "fuente": "fuente_3",
+      "error": "Request timed out after 60000ms"
+    }
+  ]
 }
