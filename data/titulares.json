@@ -1,11 +1,17 @@
 {
-  "generadoEn": "2026-09-25T23:18:11.693Z",
+  "generadoEn": "2026-09-26T00:26:02.420Z",
   "titulares": [
     {
       "titulo": "Lecturas del domingo XXVI del Tiempo Ordinario (ciclo A)",
       "url": "https://www.archisevilla.org/lecturas-del-domingo-xxvi-del-tiempo-ordinario-ciclo-a/",
       "fecha": "2026-09-25T15:00:43.000Z",
       "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "Lecturas del domingo XXVI del Tiempo Ordinario (ciclo A)",
+      "url": "https://odisur.es/sevilla/lecturas-del-domingo-xxvi-del-tiempo-ordinario-ciclo-a/",
+      "fecha": "2026-09-25T15:00:43.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "ALFA y sus Premios de Almanjáyar, en “El Espejo”",
@@ -30,6 +36,12 @@
       "url": "https://www.archisevilla.org/archisevilla-7-dias-edicion-del-25-09-2026/",
       "fecha": "2026-09-25T12:30:41.000Z",
       "fuente": "Archidiócesis de Sevilla"
+    },
+    {
+      "titulo": "ARCHISEVILLA 7 días. Edición del 25-09-2026",
+      "url": "https://odisur.es/sevilla/archisevilla-7-dias-edicion-del-25-09-2026/",
+      "fecha": "2026-09-25T12:30:41.000Z",
+      "fuente": "ODISUR"
     },
     {
       "titulo": "Abrir caminos de libertad",
@@ -447,13 +459,6 @@
     }
   ],
   "proximosActos": [
-    {
-      "titulo": "Celebración de la patrona de Instituciones Penitenciarias",
-      "url": "https://www.archisevilla.org/evento/celebracion-de-la-patrona-de-instituciones-penitenciarias/",
-      "fecha": "2026-09-25T08:30:00.000Z",
-      "fuente": "Agenda — Archidiócesis de Sevilla",
-      "esAgenda": true
-    },
     {
       "titulo": "Ordenaciones en la Catedral",
       "url": "https://www.archisevilla.org/evento/ordenaciones-en-la-catedral-2/",
